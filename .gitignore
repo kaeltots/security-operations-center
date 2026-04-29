@@ -1,0 +1,30 @@
+# Database credentials - NEVER push this!
+config/db.php
+
+# Log files
+logs/*.log
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Node modules (if you add any)
+node_modules/
